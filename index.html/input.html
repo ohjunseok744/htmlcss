@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./input.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="slide-box">
+      <img src="../car1.png" alt="">
+    </div>
+    <div class="slide-box">
+      <img src="../car2.png" alt="">
+    </div>
+    <div class="slide-box">
+      <img src="../car3.png" alt="">
+    </div>
+  </div>
+  <button class="slied-1">1</button>
+  <button class="slied-2">2</button>
+  <button class="slied-3">3</button>
+  <button class="next">다음</button>
+  <button class="la">이전</button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+  <script>
+    $('.slied-1').on('click',function(){
+      $('.slide-container').css('transform','translateX(0vw)');
+    })
+    $('.slied-2').on('click',function(){
+      $('.slide-container').css('transform','translateX(-100vw)');
+    })
+    $('.slied-3').on('click',function(){
+      $('.slide-container').css('transform','translateX(-200vw)');
+    })
+    var a =1;
+    $('.next').on('click',function(a){
+      if(a==1){
+        $('.slide-container').css('transform','translateX(-100vw)');
+        a++;
+      }
+      else if(a==2){
+        $('.slide-container').css('transform','translateX(-200vw)');
+        a++;
+      }
+    })
+
+
+  </script>
+</body>
+</html>
