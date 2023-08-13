@@ -1,0 +1,35 @@
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.shop-item {
+  width: 33%;
+  padding: 10px;
+  position: relative;
+}
+.shop-item img {
+  width: 100%;
+  display: block;
+  
+}
+.ani{
+  width: 80%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  color: white;
+  opacity: 0;
+}
+.ani:hover{
+  top:50%;
+  opacity: 1;
+  transition: all 1s;
+
+}

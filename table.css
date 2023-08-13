@@ -1,0 +1,31 @@
+.image,.detail{
+  float: left;
+}
+.detail{
+  vertical-align: middle;
+}
+h5,p{
+  margin: 5px;
+}
+table{
+  border-collapse: collapse;
+  padding: 0px;
+  border: 1px solid #6d80aa;
+  border-radius: 10px;
+}
+td{
+  border-bottom: 1px solid #6d80aa;
+}
+.od{
+  text-align: end;
+}
+button{
+  background-color: blue;
+  color: white;
+  width: 200px;
+  margin-right: auto;
+  cursor: pointer;
+}
+body{
+  font-family: "gulim";
+}

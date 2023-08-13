@@ -1,0 +1,86 @@
+body{
+  width: 60%;
+  margin: auto;
+}
+.port_1{
+  height: 40%;
+  background-image: linear-gradient(to bottom, #499add, #4e61c0);
+  display: flex;
+}
+.text_1{
+  padding: 40px;
+  color: white;
+}
+.img{
+  justify-content: end;
+  width: 400px;
+}
+.iphone{
+  width: 100%;
+}
+.show_btn{
+  font-size: 50px;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 15px;
+}
+.n2{
+  height: 20%;
+  text-align: center;
+  padding: 30px;
+}
+.show_btn:hover{
+  cursor: pointer;
+  color: aqua;
+}
+.n3{
+  background-color: rgb(109, 109, 203);
+  height: 400px;
+}
+.text_2{
+  text-align: center;
+  padding: 20px;
+  color: white;
+  
+}
+.icon_box{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+.icon i{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+  text-align: center;
+  border-radius: 15px;
+}
+.icon p{
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  color: white;
+}
+.picture{
+  display: flex;
+  height: 700px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.pic1{
+  background-image: url("./portfolio-1.jpg");
+}
+.pic2{
+  background-image: url("./portfolio-2.jpg");
+}
+.pic3{
+  background-image: url("./portfolio-3.jpg");
+}
+.pic4{
+  background-image: url("./portfolio-4.jpg");
+}
+

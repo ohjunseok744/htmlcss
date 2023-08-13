@@ -1,0 +1,70 @@
+@font-face{
+  font-family: 'wk';
+  src :url();
+}
+div{
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 60%;
+  margin: auto;
+  display: block;
+  padding: 20px;
+  border: 1px solid yellow;
+}
+.input{
+  margin: 50px;
+}
+.input2{
+  float: left;
+}
+.input3{
+  float: left;
+  margin-left: 20px;
+}
+.email{
+  width: 100%;
+  padding: 10px;
+}
+.input4{
+  clear: both;
+  width: 100%;
+}
+textarea{
+  width: 100%;
+}
+footer{
+  position: relative;
+}
+button{
+  position: absolute;
+  right: 20px;
+  background-color: rgb(255, 123, 0);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+body{
+  font-family: 'Caprasimo', cursive;
+}
+.flo{
+  float: left;
+  width: 25%;
+}
+h5{
+  font-size: 15px;
+}
+p{
+  font-size: 10px;
+}
+nav i{
+  color: wheat;
+  font-size: 15px;
+  background-color: black;
+  border-radius: 30px;
+  margin-left: 20px;
+}
